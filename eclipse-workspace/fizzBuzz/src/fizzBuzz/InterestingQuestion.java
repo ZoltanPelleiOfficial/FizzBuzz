@@ -14,7 +14,7 @@ public class InterestingQuestion {
 	
 	public static void checkFizzBuzz() {
 		// ?more efficient? because for numbers that are not divisible by 3 or 5, it only needs two checks.
-		/*for (int i=1; i<=100; i++) {
+		for (int i=1; i<=100; i++) {
 			if (i%3==0) {
 				if(i%5==0) {
 					System.out.println(i + " fizzbuzz");
@@ -29,9 +29,9 @@ public class InterestingQuestion {
 			}
 			
 		}
-		*/
+		
 		//?less efficient? because for numbers that are not divisible by 3 or 5, it needs three checks.
-		for (int i = 1; i <= 100; i++) {
+		/*for (int i = 1; i <= 100; i++) {
 	        // print 'FizzBuzz' in place of the number for numbers divisible by 3 and 5
 	        if (i % 15 == 0) {
 	            System.out.println(i + " FizzBuzz ");
@@ -45,7 +45,7 @@ public class InterestingQuestion {
 	            System.out.println(i + " ");
 	        }
 	    }
-
+*/
 	}
 
 }
